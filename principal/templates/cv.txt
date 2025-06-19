@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi curriculum</title>
+</head>
+<body>
+    <h1><b><u>Christopher Córdova</u></b></h1><!--titulo-->
+    <img src="assets/img/yo.jpeg" alt="yo" height="300"><!--imagen-->
+    <br><br>
+    <table border="2"><!--tabla de empleos-->
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Profesion</th>
+                <th>Experiencia</th>
+                <th>email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Christopher Córdova</td>
+                <td>Estudiante de informatica</td>
+                <td>Tarea Django, proyecto semana 3</td>
+                <td>ccordova2025@alu.uct.cl</td>
+            </tr>
+        </tbody>
+    </table><br>
+    <ul><!--lista de empleos-->
+        <li>TEC-UCT - Campus San Francisco</li>
+        <li>MODALIDAD - Vespertino</li>
+    </ul>
+    <a href="http://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><!--hipervinculo-->
+    Haga click aqui para un increible video destacado.</a>
+    <hr>
+    <h2>Contesta esta breve encuesta:</h2><!--encuesta-->
+    <p>
+        <u>Ingrese su email:</u> <input type="email" name="" id="">
+    </p>
+    <h3>¿Quieres que te enviemos correos?</h3><!--consulta si quiere mas informacion-->
+    <p>
+        <input type="radio" name="opcion" id="1"><label for="1">Si, por favor.</label>
+        <br>
+        <input type="radio" name="opcion" id="2"><label for="2">No, muchas gracias.</label><br>
+    </p>
+    <h4>¿Como supiste de nosotros?</h4><!--opciones como supiste-->
+    <p>
+        <input type="radio" name="opcion1" id="1"><label for="1">Facebook</label><br>
+        <input type="radio" name="opcion1" id="2"><label for="2">Instagram</label><br>
+        <input type="radio" name="opcion1" id="3"><label for="3">Amigos/Familiares</label><br>
+        <input type="radio" name="opcion1" id="4"><label for="4">Otro</label>
+    <form><!--boton de enviar-->
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

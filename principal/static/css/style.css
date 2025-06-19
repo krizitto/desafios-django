@@ -1,0 +1,28 @@
+html, body{
+    background-color: rgb(230, 195, 131);  
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+#titulo_hereditario{/*ANCHO DEL TITULO 250px*/
+    background-color: red; 
+    width: 250px; 
+    height: auto;
+    color: rgb(228, 220, 206);
+}
+
+img{
+    border: 2px solid black; /*tamaño, color*/
+}
+
+.letras{
+    color: rgb(86, 86, 124);
+}
+
+.tabla{
+    background-color: rgb(66, 63, 63);
+    color: rgb(214, 211, 211);
+}
