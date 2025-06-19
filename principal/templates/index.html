@@ -1,8 +1,15 @@
 {% extends 'base.html' %}
 
+{% load static %}
+
 {% block title %}Inicio{% endblock %}
 
 {% block content %}
-    <h1>Hola, {{nombre}}. Esta es la pagina de inicio.</h1>
+    <h1>
+        Hola, {{nombre}}. Esta es la pagina de inicio.
+    </h1>
+    <img id="bola_imagen" src="{% static 'img/bola_amarilla.png' %}" alt="ta_bien">
+    <br>
+    <hr>
     <a href="curriculum/">Ir al curriculum</a>
 {% endblock %}
